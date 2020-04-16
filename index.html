@@ -1,20 +1,15 @@
 
-
 <!DOCTYPE html>
 <html>
-
 <head>
   <meta charset="utf-8">
   <title>TinDog</title>
-  <!-- Google fonts -->
-  <link href="https://fonts.googleapis.com/css?family=Montserrat|Ubuntu&display=swap" rel="stylesheet">
-
-  <!-- Css stylesheets-->
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:100,400|Ubuntu&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-  <link rel="stylesheet" href="style.css">
+  <script defer src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>
+  <link href="https://fonts.googleapis.com/css?family=Montserrat|Ubuntu&display=swap" rel="stylesheet">
   
-  <!-- Font awsome -->
-  <script defer src="all.js"></script>
+
   
   <!-- Bootstrap scripts -->
   <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
@@ -23,6 +18,148 @@
  
 </head>
 <style>
+    body{
+    font-family: "Montserrat";
+    text-align: center;
+}
+
+
+h1, h2, h3, h4, h5{
+    font-family: "Montserrat";
+    font-weight: bolder;
+}
+
+p{
+    color: #8f8f8f;
+}
+
+/* Headings */
+
+.big-heading{
+    font-family: "Montserrat";
+    font-weight: bolder;
+    font-size: 3.5rem;
+    line-height: 1.5;
+}
+
+.section-heading{
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+/* Container */
+
+.container-fluid{
+    padding: 7% 15%; 
+}
+
+/* Section */
+
+.colored-section{
+    background-color: #ff4c68;
+    color: #fff;
+}
+
+.white-section{
+    background-color: #fff;
+}
+
+/* Nav bar */
+
+.navbar{
+    padding: 0 0 4.5rem;
+}
+
+.navbar-brand{
+    font-family: "Ubuntu";
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.nav-item{
+    padding: 0 18px;
+}
+
+.nav-link{
+    font-size: 1.2rem;
+    font-family: "Montserrat";
+    font-weight: 300;
+}
+
+/* Title section */
+
+#title .container-fluid{
+    padding: 3% 15% 7%;
+    text-align: left;
+}
+
+/* Download button */
+
+.download-button{
+    margin: 5% 3% 5% 0;
+}
+
+/* Title img */
+
+.title-image{
+    width: 60%;
+    position: absolute;
+    transform: rotate(25deg);
+    right: 30%;
+}
+
+
+/* Features */
+
+#features{
+    position: relative;
+    z-index: 1;
+}
+
+.feature-title{
+    font-size: 1.75rem;
+}
+
+.feature-box{
+    padding: 5%;
+}
+
+.icon{
+    color: #ef8172;
+    margin-bottom: 1rem;
+}
+
+.icon:hover{
+    color: #ff4c68;
+}
+
+
+/* Testimonial */
+
+#testimonials{
+    background-color: #ef8172;
+}
+
+.testimonial-text{
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+.testimonial-image{
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;
+}
+
+#press{
+    background-color: #ef8172;
+    padding-bottom: 3%;
+}
+
+.press-logo{
+    width: 15%;
+    margin: 20px 20px 50px;
+}
 
 
 </style>
